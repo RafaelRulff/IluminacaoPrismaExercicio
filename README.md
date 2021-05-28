@@ -56,7 +56,7 @@ int idx[6][4] =
 
 };
 
-- (void) prepareOpenGL {
+ (void) prepareOpenGL {
 
     [super prepareOpenGL];
 
@@ -70,8 +70,8 @@ int idx[6][4] =
 }
 
 
-- (void) drawRect:(NSRect)rect {
-- 
+ (void) drawRect:(NSRect)rect {
+
     [super drawRect:rect];
 
     glClearColor(1, 1, 1, 0);
